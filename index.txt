@@ -30,14 +30,18 @@ acronym for Stochastic Parallel PARticle Kinetic Simulator.
 "Documentation"_doc/Manual.html,
 "Commands"_doc/Section_commands.html#cmd_5,
 "Pictures & Movies"_pictures.html,
+"Publications"_papers.html,
 "Download"_download,
 "Latest features & bug fixes"_bug.html,
 "Performance"_performance.html,
 "Open source"_open_source.html,
-"Pizza.py Toolkit"_pizza,
-"Publications"_papers.html,
 "Authors"_authors.html,
-"Tutorial"_tutorial/html/index.html :tb(c=4,ea=c,a=c)
+"GitHub"_"https://github.com/spparks/spparks,
+"Pizza.py Toolkit"_pizza,
+"Tutorial"_tutorial/html/index.html,
+,
+,
+:tb(c=5,ea=c,a=c)
 
 :link(download,http://www.sandia.gov/~sjplimp/download.html)
 :link(pizza,http://pizza.sandia.gov)
@@ -75,15 +79,11 @@ at nnsa.doe.gov, respectively.  Funding for SPPARKS development has
 come from the DOE and is "acknowledged here"_thanks.html,
 along with the contributions of others.
 
-The SPPARKS WWW site is hosted by Sandia, which has this "Privacy and
-Security statement"_security.
-
 :link(gpl,http://www.gnu.org/copyleft/gpl.html)
 :link(gnu2,http://www.gnu.org/licenses/lgpl-2.1.html)
 :link(snl,http://www.sandia.gov)
 :link(doe,http://www.doe.gov)
 :link(sjp,http://www.sandia.gov/~sjplimp)
-:link(security,http://www.sandia.gov/general/privacy-security/index.html)
 
 :line
 
