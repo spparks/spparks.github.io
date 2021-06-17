@@ -36,7 +36,7 @@ acronym for Stochastic Parallel PARticle Kinetic Simulator.
 "Performance"_performance.html,
 "Open source"_open_source.html,
 "Authors"_authors.html,
-"GitHub"_"https://github.com/spparks/spparks,
+"GitHub"_https://github.com/spparks/spparks,
 "Pizza.py Toolkit"_pizza,
 "Tutorial"_tutorial/html/index.html,
 ,
