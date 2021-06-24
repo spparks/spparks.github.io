@@ -1,0 +1,23 @@
+19Jan21 version files changed by 24Jun21 upgrade:
+
+doc/Manual.html
+doc/Manual.txt
+doc/Section_commands.html
+doc/Section_commands.txt
+doc/app_diffusion_multiphase.html
+doc/app_diffusion_multiphase.txt
+doc/diffusion_multiphase.html
+doc/diffusion_multiphase.txt
+examples/diffusion_multiphase/README
+examples/diffusion_multiphase/in.pairwise_weights
+examples/diffusion_multiphase/in.pin_filler
+examples/diffusion_multiphase/in.variable_phase_fraction
+examples/diffusion_multiphase/log.pairwise_weights.June22.2021.linux.8
+examples/diffusion_multiphase/log.pin_filler.June22.2021.linux.8
+examples/diffusion_multiphase/log.variable_phase_fraction.June22.2021.linux.8
+examples/diffusion_multiphase/vf03_nvox100.st
+src/MAKE/Makefile.kachemak.gnu
+src/MAKE/Makefile.mac_mpi
+src/app_diffusion_multiphase.cpp
+src/app_diffusion_multiphase.h
+src/version.h

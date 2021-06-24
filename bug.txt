@@ -37,6 +37,16 @@ describe the version you have. :ule,l
 :line
 :line
 
+[24 Jun 2021]
+
+This release adds a new multiphase diffusion app, associated documentation, 
+and examples.
+
+This is the "list of changed files"_patches/files.24Jun21 from the 19
+Jan 2021 version.
+
+:line
+
 [19 Jan 2021]
 
 This release adds some performance improvements to the Stitch library
