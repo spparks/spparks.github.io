@@ -52,7 +52,7 @@ Jan 2021 version.
 This release adds some performance improvements to the Stitch library
 and its use within SPPARKS.
 
-This is the "list of changed files"_patches/files.19Jan21 from the 23
+This is the "list of changed files"_patches/files.19Jan21.txt from the 23
 Oct 2020 version.
 
 :line
@@ -81,7 +81,7 @@ Removed the am/potts/path/test app style. :l
 
 Removed examples/am_path/cartesian_path_test. :l,ule
 
-This is the "list of changed files"_patches/files.23Oct20 from the 24
+This is the "list of changed files"_patches/files.23Oct20.txt from the 24
 Jul 2020 version.
 
 :line
@@ -91,7 +91,7 @@ Jul 2020 version.
 The Stitch library was inadvertantly left out of the 23Jul20 tarball.
 It is in the lib/stitch directory of the distro.
 
-This is the "list of changed files"_patches/files.24Jul20 from the 23
+This is the "list of changed files"_patches/files.24Jul20.txt from the 23
 Jul 2020 version.
 
 :line
@@ -148,7 +148,7 @@ and accessing Stitch files:
 "dump stitch"_doc/dump.html = write current site info to a Stitch file
 "reset_time stitch"_doc/reset_time.html = reset time based on a Stitch file :ul
 
-This is the "list of changed files"_patches/files.23Jul20 from the 18
+This is the "list of changed files"_patches/files.23Jul20.txt from the 18
 May 2017 version.
 
 :line
@@ -164,7 +164,7 @@ for comparison.
 
 Examples of using both are in the examples/potts_weld directory.
 
-This is the "list of changed files"_patches/files.18May17 from the 17
+This is the "list of changed files"_patches/files.18May17.txt from the 17
 May 2017 version.
 
 :line
@@ -191,7 +191,7 @@ to specify the AM process.
 
 See the examples/potts_additive directory for example scripts.
 
-This is the "list of changed files"_patches/files.17May17 from the 23
+This is the "list of changed files"_patches/files.17May17.txt from the 23
 Nov 2016 version.
 
 :line
@@ -219,7 +219,7 @@ The new "dump vtk"_dump.html style makes it easier to directly
 visualize some kinds of SPPARKS output directly in VTK-compatible
 visulizers, like "ParaView"_http://www.paraview.org.
 
-This is the "list of changed files"_patches/files.23Nov16 from the 22
+This is the "list of changed files"_patches/files.23Nov16.txt from the 22
 Nov 2016 version.
 
 :line
@@ -232,7 +232,7 @@ IDs or a chosen column of per-site information.  For parallel runs,
 the sorting is done across all processors, which is not enabled by
 default, since it requires extra memory and communication.
 
-This is the "list of changed files"_patches/files.22Nov16 from the 5
+This is the "list of changed files"_patches/files.22Nov16.txt from the 5
 Oct 2016 version.
 
 :line
@@ -244,7 +244,7 @@ potts/weld/jom"_doc/app_potts_weld_jom.html command, which is similar
 to the recently released "app_style potts/weld"_doc/app_potts_weld.html
 command, but handles the geometry of the weld pool in a different manner.
 
-This is the "list of changed files"_patches/files.5Oct16 from the 20
+This is the "list of changed files"_patches/files.5Oct16.txt from the 20
 Sep 2016 version.
 
 :line
@@ -256,7 +256,7 @@ potts/weld"_doc/app_potts_weld.html command which can be used to
 simulate the welding process to join two pieces of metal.  See the
 examples/potts_weld directory for an example script.
 
-This is the "list of changed files"_patches/files.20Sep16 from the 1
+This is the "list of changed files"_patches/files.20Sep16.txt from the 1
 Sep 2016 version.
 
 :line
@@ -266,7 +266,7 @@ Sep 2016 version.
 Removed some "long double" definitions someone added which aren't needed and
 which broke the serial compile against the MPI stub library.
 
-This is the "list of changed files"_patches/files.1Sep16 from the 4
+This is the "list of changed files"_patches/files.1Sep16.txt from the 4
 Aug 2016 version.
 
 :line
@@ -275,7 +275,7 @@ Aug 2016 version.
 
 Missed one file in last patch.
 
-This is the "list of changed files"_patches/files.3Aug16 from the 2
+This is the "list of changed files"_patches/files.3Aug16.txt from the 2
 Aug 2016 version.
 
 :line
@@ -286,7 +286,7 @@ Some of the Potts applications were no longer parsing their
 "app_style"_doc/app_style.html command arguments correctly due to the
 recent addition of several new derived Potts application variants.
 
-This is the "list of changed files"_patches/files.2Aug16 from the 19
+This is the "list of changed files"_patches/files.2Aug16.txt from the 19
 Jul 2016 version.
 
 :line
@@ -296,7 +296,7 @@ Jul 2016 version.
 Fixed a bug with processing args for the "app_style
 potts/grad"_doc/app_potts_gran.html command.
 
-This is the "list of changed files"_patches/files.19Jul16 from the 26
+This is the "list of changed files"_patches/files.19Jul16.txt from the 26
 Feb 2016 version.
 
 :line
@@ -306,7 +306,7 @@ Feb 2016 version.
 Left some debug print statements in the code for the previous
 version.
 
-This is the "list of changed files"_patches/files.26Feb16 from the 24
+This is the "list of changed files"_patches/files.26Feb16.txt from the 24
 Feb 2016 version.
 
 :line
@@ -324,7 +324,7 @@ instead of requiring memory allocation for 2 billion colors.
 Also fixed a bug to allow the dump command to printing a 64-bit site
 count (> 2B) correctly without integer overflow.
 
-This is the "list of changed files"_patches/files.24Feb16 from the 1
+This is the "list of changed files"_patches/files.24Feb16.txt from the 1
 Feb 2016 version.
 
 :line
@@ -339,7 +339,7 @@ for details.  SPPARKS now prints out its per-processor memory
 footprint to assist in estimating how many MPI tasks you
 need to run a large problem.
 
-This is the "list of changed files"_patches/files.1Feb16 from the 11
+This is the "list of changed files"_patches/files.1Feb16.txt from the 11
 Dec 2015 version.
 
 :line
@@ -359,7 +359,7 @@ There is also an examples/potts_pfm dir with an example script and the
 the "Pictures web page"_http://spparks.sandia.gov/pictures.html now
 has images of simulations performed with this command.
 
-This is the "list of changed files"_patches/files.11Dec15 from the 21
+This is the "list of changed files"_patches/files.11Dec15.txt from the 21
 Oct 2015 version.
 
 :line
@@ -372,7 +372,7 @@ how to use the application.  Some pictures and movies are on the
 "Pictures"_http://spparks.sandia.gov/pictures.html page of the web
 site.
 
-This is the "list of changed files"_patches/files.21Oct15 from the 8
+This is the "list of changed files"_patches/files.21Oct15.txt from the 8
 Jul 2015 version.
 
 :line
@@ -384,7 +384,7 @@ potts/grad"_doc/app_potts_grad.html.  It is a Potts model which allows
 specification of linear gradients of temperature or mobility along a
 given direction, which affects grain growth.
 
-This is the "list of changed files"_patches/files.8Jul15 from the 18
+This is the "list of changed files"_patches/files.8Jul15.txt from the 18
 Mar 2015 version.
 
 :line
@@ -395,7 +395,7 @@ Aidan Thompson (SNL) upated the "diag_style
 cluster"_doc/diag_cluster.html comand to also compute and output the
 centroid of each cluster.
 
-This is the "list of changed files"_patches/files.18Mar15 from the 19
+This is the "list of changed files"_patches/files.18Mar15.txt from the 19
 Nov 2013 version.
 
 :line
@@ -404,7 +404,7 @@ Nov 2013 version.
 
 Added a couple missing header files, due to the 5 Nov 13 change.
 
-This is the "list of changed files"_patches/files.19Nov13 from the 18
+This is the "list of changed files"_patches/files.19Nov13.txt from the 18
 Nov 2013 version.
 
 :line
@@ -415,7 +415,7 @@ Have now allowed SPPARKS to be released (only in certain cases, by
 request) under the LPGL (GNU Lesser General Public License).  Some doc
 pages and README and LICENSE files were amended to state this.
 
-This is the "list of changed files"_patches/files.18Nov13 from the 5
+This is the "list of changed files"_patches/files.18Nov13.txt from the 5
 Nov 2013 version.
 
 :line
@@ -429,7 +429,7 @@ isn't needed, but if you start a simulation with a homogeneous lattice
 on every proc, you need more randomness to avoid correlations between
 processors.
 
-This is the "list of changed files"_patches/files.5Nov13 from the 7
+This is the "list of changed files"_patches/files.5Nov13.txt from the 7
 Mar 2013 version.
 
 :line
@@ -456,7 +456,7 @@ SPPARKS/"LAMMPS"_http::lammps.sandia.gov application using kinetic
 Monte Carlo and molecular dynamics.  It also includes a small library
 that does communication of data back-and-forth between the 2 codes.
 
-This is the "list of changed files"_patches/files.7Mar13 from the 4
+This is the "list of changed files"_patches/files.7Mar13.txt from the 4
 Jun 2012 version.
 
 :line
@@ -466,7 +466,7 @@ Jun 2012 version.
 Eric Homer (BYU) fixed a memory bug with the "undump"_doc/undump.html
 command.
 
-This is the "list of changed files"_patches/files.4Jun12 from the 19
+This is the "list of changed files"_patches/files.4Jun12.txt from the 19
 May 2012 version.
 
 :line
@@ -480,7 +480,7 @@ boxes that were specified at arbitrary positions (not at the origin).
 Due to a round-off issue, site-to-site connectitivy was sometimes
 mixed up.  This patch should fix the problem.
 
-This is the "list of changed files"_patches/files.19May12 from the 18
+This is the "list of changed files"_patches/files.19May12.txt from the 18
 May 2012 version.
 
 :line
@@ -494,7 +494,7 @@ intialized thru a "create_sites"_doc/create_sites.html command and
 just having their values setup via a read_sites file.  I believe this
 bug was introduced by some of the changes to SPPARKS last fall.
 
-This is the "list of changed files"_patches/files.18May12 from the 17
+This is the "list of changed files"_patches/files.18May12.txt from the 17
 May 2012 version.
 
 :line
@@ -506,7 +506,7 @@ fixed a indexing bug when using "off-lattice
 applications"_doc/app_style.html and reading in per-site values from a
 file via the "read_sites"_doc/read_sites.html command.
 
-This is the "list of changed files"_patches/files.17May12 from the 16
+This is the "list of changed files"_patches/files.17May12.txt from the 16
 May 2012 version.
 
 :line
@@ -518,7 +518,7 @@ linear"_doc/solve_style.html command, that can occasionally occur due
 to round-off when adding up a long list of probabilities.  This patch
 should fix it.
 
-This is the "list of changed files"_patches/files.16May12 from the 20
+This is the "list of changed files"_patches/files.16May12.txt from the 20
 Jan 2012 version.
 
 :line
@@ -529,7 +529,7 @@ Changed the Makefile to use a Make.sh script for finding style files
 instead of a Make.csh script.  Csh is no longer included in some Linux
 distribution, but "sh" always is.
 
-This is the "list of changed files"_patches/files.20Jan12 from the 10
+This is the "list of changed files"_patches/files.20Jan12.txt from the 10
 Jan 2012 version.
 
 :line
@@ -541,7 +541,7 @@ it will be consistent with other views when viewed from theta = 0 of
 180, which is nominally a degenerate view angle.  This patch attempts
 to remedy that.
 
-This is the "list of changed files"_patches/files.10Jan12 from the 6
+This is the "list of changed files"_patches/files.10Jan12.txt from the 6
 Jan 2012 version.
 
 :line
@@ -551,7 +551,7 @@ Jan 2012 version.
 Fixed a glitch in the 4Jan12 patch and added a missing file
 that didn't make it into the SVN repository.
 
-This is the "list of changed files"_patches/files.6Jan12 from the 4
+This is the "list of changed files"_patches/files.6Jan12.txt from the 4
 Jan 2012 version.
 
 :line
@@ -562,7 +562,7 @@ Eric Homer (BYU) found and fixed a bug in the "set site
 range"_doc/set.html command where the range of integer values was off
 by 2 when using a lower bound.
 
-This is the "list of changed files"_patches/files.4Jan12 from the 3
+This is the "list of changed files"_patches/files.4Jan12.txt from the 3
 Jan 2012 version.
 
 :line
@@ -574,7 +574,7 @@ the source file and line #, which can be useful in debugging.  Also
 included the explanation of the error messages in the header files of
 each class, to make the code more self-documenting.
 
-This is the "list of changed files"_patches/files.3Jan12 from the 23
+This is the "list of changed files"_patches/files.3Jan12.txt from the 23
 Dec 2011 version.
 
 :line
@@ -584,7 +584,7 @@ Dec 2011 version.
 Made some upgrades to the dump image command to make it more
 compatible with other versions of the code base for this class.
 
-This is the "list of changed files"_patches/files.23Dec11 from the 27
+This is the "list of changed files"_patches/files.23Dec11.txt from the 27
 Oct 2011 version.
 
 :line
@@ -596,7 +596,7 @@ easily-changed setting in the src/output.cpp.  The default length is
 now 4096 characters, which ought to be long enough for most
 simulations.
 
-This is the "list of changed files"_patches/files.27Oct11 from the 24
+This is the "list of changed files"_patches/files.27Oct11.txt from the 24
 Oct 2011 version.
 
 :line
@@ -607,7 +607,7 @@ Fixed a bug in the new "boundary"_doc/boundary.html command which had
 to do with hou neighbor sites were identified for on-lattice
 applications when using lattices with multi-site basis sets.
 
-This is the "list of changed files"_patches/files.24Oct11 from the 23
+This is the "list of changed files"_patches/files.24Oct11.txt from the 23
 Sep 2011 version.
 
 Thanks to Antonio Gomez for finding and fixing the issue.
@@ -622,7 +622,7 @@ if their specified values are different.  It is useful for
 visualizing the boundaries between aggregated groups of sites
 when the colors of sites in the adjacent groups are the same.
 
-This is the "list of changed files"_patches/files.23Sep11 from the 22
+This is the "list of changed files"_patches/files.23Sep11.txt from the 22
 Sep 2011 version.
 
 [22 Sep 2011]
@@ -631,7 +631,7 @@ There were still some glitches in the 20Sep11 patch
 with respect to non-periodic systems.  Hopefully this
 patch fixes the remaining issues.
 
-This is the "list of changed files"_patches/files.22Sep11 from the 20
+This is the "list of changed files"_patches/files.22Sep11.txt from the 20
 Sep 2011 version.
 
 :line
@@ -646,7 +646,7 @@ and "read_sites"_doc/read_sites.html commands for more details.  Using
 "create_sites region"_doc/create_sites.html is now supported to only
 create sites within a geometric region.
 
-This is the "list of changed files"_patches/files.20Sep11 from the 2
+This is the "list of changed files"_patches/files.20Sep11.txt from the 2
 Sep 2011 version.
 
 :line
@@ -659,7 +659,7 @@ command.
 Updated the input scripts in the examples to reflect the new syntax
 for the "dump"_doc/dump.html command.
 
-This is the "list of changed files"_patches/files.2Sep11 from the 29
+This is the "list of changed files"_patches/files.2Sep11.txt from the 29
 Jul 2011 version.
 
 :line
@@ -669,7 +669,7 @@ Jul 2011 version.
 Upgraded the dummy MPI library (used with make serial) to
 be compatible with the 64-bit options now available in SPPARKS.
 
-This is the "list of changed files"_patches/files.29Jul11 from the 25
+This is the "list of changed files"_patches/files.29Jul11.txt from the 25
 Jul 2011 version.
 
 :line
@@ -679,7 +679,7 @@ Jul 2011 version.
 Added a sweep counter back to the output stats for sectored
 KMC solves.  Somehow this got lost from an earlier version.
 
-This is the "list of changed files"_patches/files.25Jul11 from the 18
+This is the "list of changed files"_patches/files.25Jul11.txt from the 18
 Jul 2011 version.
 
 :line
@@ -703,7 +703,7 @@ There is still a limit of around 2 billions sites per processor, which
 should not be a restriction since that would have a huge memory
 footprint to store neibhbor lists.
 
-This is the "list of changed files"_patches/files.18Jul11 from the 16
+This is the "list of changed files"_patches/files.18Jul11.txt from the 16
 Jul 2011 version.
 
 :line
@@ -714,7 +714,7 @@ More upgrades to the "dump_image"_doc/dump_image.html command,
 including an option to generate a list of random colors via the
 "dump_modify scolor"_doc/dump_modify.html command.
 
-This is the "list of changed files"_patches/files.16Jul11 from the 15
+This is the "list of changed files"_patches/files.16Jul11.txt from the 15
 Jul 2011 version.
 
 :line
@@ -724,7 +724,7 @@ Jul 2011 version.
 Fixed a glitch in the color table map for the "dump
 image"_doc/dump_image.html command.
 
-This is the "list of changed files"_patches/files.15Jul11 from the 14
+This is the "list of changed files"_patches/files.15Jul11.txt from the 14
 Jul 2011 version.
 
 :line
@@ -752,7 +752,7 @@ As part of this command, the previous "dump"_doc/dump.html command now
 requires a "style" argument, which can be either "text" or "image".
 The previous dump command is now the "text" style.
 
-This is the "list of changed files"_patches/files.14Jul11 from the 7
+This is the "list of changed files"_patches/files.14Jul11.txt from the 7
 Jul 2011 version.
 
 :line
@@ -767,7 +767,7 @@ The specified {lo} and {hi} bounds can now be exact matches to event
 propensities of your model.  A warning message is printed if generated
 propensities violate the specified bounds.
 
-This is the "list of changed files"_patches/files.7Jul11 from the 5
+This is the "list of changed files"_patches/files.7Jul11.txt from the 5
 Jul 2011 version.
 
 :line
@@ -777,7 +777,7 @@ Jul 2011 version.
 Fix a logic error with communication when performing multiple
 runs with changing sector rules.
 
-This is the "list of changed files"_patches/files.5Jul11 from the 24
+This is the "list of changed files"_patches/files.5Jul11.txt from the 24
 Jun 2011 version.
 
 :line
@@ -787,7 +787,7 @@ Jun 2011 version.
 Made some lo-level changes within the lattice app base class
 to support a new phase field app we'll release later.
 
-This is the "list of changed files"_patches/files.24Jun11 from the 15
+This is the "list of changed files"_patches/files.24Jun11.txt from the 15
 Jun 2011 version.
 
 :line
@@ -797,7 +797,7 @@ Jun 2011 version.
 Eric Homer (Sandia) added a "diag_style array"_doc/diag_array.html
 command to print stats on various lattice site values.
 
-This is the "list of changed files"_patches/files.15Jun11 from the 30
+This is the "list of changed files"_patches/files.15Jun11.txt from the 30
 May 2011 version.
 
 :line
@@ -808,7 +808,7 @@ Fixed a typo bug in the "create_sites"_doc/create_sites.html command
 and clarified the documentaion about the use of regions with 1d and 2d
 simulations.
 
-This is the "list of changed files"_patches/files.14Jun11 from the 30
+This is the "list of changed files"_patches/files.14Jun11.txt from the 30
 May 2011 version.
 
 :line
@@ -817,7 +817,7 @@ May 2011 version.
 
 Update the PDF manual.
 
-This is the "list of changed files"_patches/files.30May11 from the 27
+This is the "list of changed files"_patches/files.30May11.txt from the 27
 May 2011 version.
 
 :line
@@ -828,7 +828,7 @@ Fixed a bug with "deposition"_doc/deposition.html in the "app_style
 diffusion"_doc/app_diffusion.html application, that would prevent
 deposition if the site at the origin ever became unoccupied.
 
-This is the "list of changed files"_patches/files.27May11 from the 30
+This is the "list of changed files"_patches/files.27May11.txt from the 30
 Mar 2011 version.
 
 :line
@@ -838,7 +838,7 @@ Mar 2011 version.
 Added some additional hooks in the AppLattice class that a user
 application can use to add custom functionality.
 
-This is the "list of changed files"_patches/files.30Mar11 from the 21
+This is the "list of changed files"_patches/files.30Mar11.txt from the 21
 Mar 2011 version.
 
 :line
@@ -850,7 +850,7 @@ command, so that sites can be created within a geometric region.
 
 Also converted some counters to 64-bit integers to avoid overflow.
 
-This is the "list of changed files"_patches/files.21Mar11 from the 16
+This is the "list of changed files"_patches/files.21Mar11.txt from the 16
 Sept 2010 version.
 
 :line
@@ -866,7 +866,7 @@ an example coupling program that does this, in its "couple" directory.
 
 :link(lammps,http://lammps.sandia.gov)
 
-This is the "list of changed files"_patches/files.16Sep10 from the 26
+This is the "list of changed files"_patches/files.16Sep10.txt from the 26
 Aug 2010 version.
 
 :line
@@ -876,7 +876,7 @@ Aug 2010 version.
 Updated the library interface to SPPARKS for use by external codes
 that call SPPARKS as a library.
 
-This is the "list of changed files"_patches/files.26Aug10 from the 6
+This is the "list of changed files"_patches/files.26Aug10.txt from the 6
 Aug 2010 version.
 
 :line
@@ -887,7 +887,7 @@ Made some bug fixes to the read_sites command for reading in full
 lattices and neighbor definitions as opposed to just values on
 lattices.
 
-This is the "list of changed files"_patches/files.6Aug10 from the 5
+This is the "list of changed files"_patches/files.6Aug10.txt from the 5
 Jun 2010 version.
 
 :line
@@ -897,7 +897,7 @@ Jun 2010 version.
 Fixed a small bug in the library interface routine spparks_energy()
 which returns the energy from a current configuration.
 
-This is the "list of changed files"_patches/files.5Jun10 from the 30
+This is the "list of changed files"_patches/files.5Jun10.txt from the 30
 Apr 2010 version.
 
 :line
@@ -907,7 +907,7 @@ Apr 2010 version.
 Update the PDF version of the manual, since it has become
 out-of-date.
 
-This is the "list of changed files"_patches/files.30Apr10 from the 29
+This is the "list of changed files"_patches/files.30Apr10.txt from the 29
 Apr 2010 version.
 
 :line
@@ -918,7 +918,7 @@ Added error checks to prevent the "deposition"_doc/deposition.html
 option in "app_style diffusion"_doc/app_diffusion.html when running in
 parallel or with multiple sectors.
 
-This is the "list of changed files"_patches/files.29Apr10 from the 28
+This is the "list of changed files"_patches/files.29Apr10.txt from the 28
 Apr 2010 version.
 
 :line
@@ -927,7 +927,7 @@ Apr 2010 version.
 
 Added support to the MPI STUBS lib to support the 6Apr10 patch.
 
-This is the "list of changed files"_patches/files.28Apr10 from the 27
+This is the "list of changed files"_patches/files.28Apr10.txt from the 27
 Apr 2010 version.
 
 :line
@@ -938,7 +938,7 @@ Fixed a bug with dumping per-site double values.  Also added
 a new routine so that child-class applications can reset how
 many integers and doubles are stored per site.
 
-This is the "list of changed files"_patches/files.27Apr10 from the 6
+This is the "list of changed files"_patches/files.27Apr10.txt from the 6
 Apr 2010 version.
 
 :line
@@ -948,7 +948,7 @@ Apr 2010 version.
 Changed some output accumulators to 64-bit integers, to avoid
 overflows.
 
-This is the "list of changed files"_patches/files.6Apr10 from the 27
+This is the "list of changed files"_patches/files.6Apr10.txt from the 27
 Mar 2010 version.
 
 :line
@@ -958,7 +958,7 @@ Mar 2010 version.
 Added an option to the "set"_doc/set.html command to set
 each site to a unique value based on the site ID.
 
-This is the "list of changed files"_patches/files.27Mar10 from the 23
+This is the "list of changed files"_patches/files.27Mar10.txt from the 23
 Mar 2010 version.
 
 :line
@@ -968,7 +968,7 @@ Mar 2010 version.
 Bug fixes in the way lattices of sites with unit cells of non-unit size
 are generated.
 
-This is the "list of changed files"_patches/files.23Mar10 from the 4
+This is the "list of changed files"_patches/files.23Mar10.txt from the 4
 Mar 2010 version.
 
 :line
@@ -979,7 +979,7 @@ Changed the way solvers and random number generators are preserved
 from run to run, so that consecutive runs should give identical
 answers as one long continuous run.
 
-This is the "list of changed files"_patches/files.4Mar10 from the 2
+This is the "list of changed files"_patches/files.4Mar10.txt from the 2
 Mar 2010 version.
 
 :line
@@ -989,7 +989,7 @@ Mar 2010 version.
 Corbett Battaile (Sandia) found a typo bug with the "set x"_doc/set.html
 command.
 
-This is the "list of changed files"_patches/files.2Mar10 from the 17
+This is the "list of changed files"_patches/files.2Mar10.txt from the 17
 Feb 2010 version.
 
 :line
@@ -1000,7 +1000,7 @@ Greg Wagner (Sandia) found a memory bug with the way event lists are
 cleared between runs, that affected a few of the applications that
 maintain these lists.  This update fixes it.
 
-This is the "list of changed files"_patches/files.17Feb10 from the 16
+This is the "list of changed files"_patches/files.17Feb10.txt from the 16
 Feb 2010 version.
 
 :line
@@ -1010,7 +1010,7 @@ Feb 2010 version.
 Fixed a one-line bug with the "app_style sos"_doc/app_sos.html command
 that reset the bond energy to 1.0 even after the user set it.
 
-This is the "list of changed files"_patches/files.16Feb10 from the 21
+This is the "list of changed files"_patches/files.16Feb10.txt from the 21
 Jan 2010 version.
 
 :line
@@ -1024,7 +1024,7 @@ on-lattice modeling of reaction/diffusion events for hydrogen and
 helium in a fcc erbium lattice.  A further description of the model is
 given on the "Pictures & Movie"_pictures.html page.
 
-This is the "list of changed files"_patches/files.21Jan10 from the 20
+This is the "list of changed files"_patches/files.21Jan10.txt from the 20
 Jan 2010 version.
 
 :line
@@ -1035,7 +1035,7 @@ Fixed a bug with the "create_sites"_doc/create_sites.html
 command when building a lattice with an application
 that stores 2 or more integers or doubles per site.
 
-This is the "list of changed files"_patches/files.20Jan10 from the 19
+This is the "list of changed files"_patches/files.20Jan10.txt from the 19
 Jan 2010 version.
 
 :line
@@ -1047,7 +1047,7 @@ region"_doc/set.html and "create_sites"_doc/create_sites commands, the
 latter when using a region whose lower left corner was not at the
 origin.  This upgrade fixes the problems.
 
-This is the "list of changed files"_patches/files.19Jan10 from the 18
+This is the "list of changed files"_patches/files.19Jan10.txt from the 18
 Dec 2009 version.
 
 :line
@@ -1057,7 +1057,7 @@ Dec 2009 version.
 Greg Wagner (Sandia) added a solid-on-solid (SOS) model via a new
 "app_style sos"_doc/app_sos.html command.
 
-This is the "list of changed files"_patches/files.18Dec09 from the 17
+This is the "list of changed files"_patches/files.18Dec09.txt from the 17
 Dec 2009 version.
 
 :line
@@ -1068,7 +1068,7 @@ Fixed a bug with using "sweep color"_doc/sweep.html with
 "sectoring"_doc/sector.html in parallel.  The problem was that the
 inter-sector communication was not complete.
 
-This is the "list of changed files"_patches/files.17Dec09 from the 14
+This is the "list of changed files"_patches/files.17Dec09.txt from the 14
 Dec 2009 version.
 
 :line
@@ -1083,7 +1083,7 @@ energies.  And 4th neighbors instead of 3rd neighbors for non-linear
 energies.  This should make only a small difference in propensities of
 these far-away site, but is important to bookkeep correctly.
 
-This is the "list of changed files"_patches/files.14Dec09 from the 10
+This is the "list of changed files"_patches/files.14Dec09.txt from the 10
 Dec 2009 version.
 
 :line
@@ -1093,7 +1093,7 @@ Dec 2009 version.
 Fixed a memory bug in the "app_style diffusion"_doc/app_diffusion.html
 command.
 
-This is the "list of changed files"_patches/files.10Dec09 from the 14
+This is the "list of changed files"_patches/files.10Dec09.txt from the 14
 Nov 2009 version.
 
 :line
@@ -1102,7 +1102,7 @@ Nov 2009 version.
 
 Fixed an additional issue with the 13Nov09 patch.
 
-This is the "list of changed files"_patches/files.14Nov09 from the 13
+This is the "list of changed files"_patches/files.14Nov09.txt from the 13
 Nov 2009 version.
 
 :line
@@ -1113,7 +1113,7 @@ Allow a "none" option with the "solve_style"_doc/solve_style.html and
 "sweep"_doc/sweep.html commands so that KMC and rejection-KMC solvers
 can be turned off in between successive runs.
 
-This is the "list of changed files"_patches/files.13Nov09 from the 12
+This is the "list of changed files"_patches/files.13Nov09.txt from the 12
 Nov 2009 version.
 
 :line
@@ -1123,7 +1123,7 @@ Nov 2009 version.
 The PDF version of the manual was out-of-date in yesterday's
 release.  This patch updates it.
 
-This is the "list of changed files"_patches/files.12Nov09 from the 11
+This is the "list of changed files"_patches/files.12Nov09.txt from the 11
 Nov 2009 version.
 
 :line
