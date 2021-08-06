@@ -356,7 +356,7 @@ See the doc page for more details on how to use it in SPPARKS, and for
 a citation to their paper which gives a fuller explanation.
 
 There is also an examples/potts_pfm dir with an example script and the
-the "Pictures web page"_http://spparks.sandia.gov/pictures.html now
+the "Pictures web page"_http://spparks.github.io/pictures.html now
 has images of simulations performed with this command.
 
 This is the "list of changed files"_patches/files.11Dec15.txt from the 21
@@ -369,7 +369,7 @@ Oct 2015 version.
 Updates to the new "app_style potts/grad"_doc/app_potts_grad.html
 command.  There is now a examples/potts_grad dir with 3 examples of
 how to use the application.  Some pictures and movies are on the
-"Pictures"_http://spparks.sandia.gov/pictures.html page of the web
+"Pictures"_http://spparks.github.io/pictures.html page of the web
 site.
 
 This is the "list of changed files"_patches/files.21Oct15.txt from the 8
@@ -452,7 +452,7 @@ examples/COUPLE :ul
 
 The python dir has examples of Python scripts that invoke SPPARKS.
 The COUPLE dir has an example of a coupled
-SPPARKS/"LAMMPS"_http::lammps.sandia.gov application using kinetic
+SPPARKS/"LAMMPS"_https://www.lammps.org application using kinetic
 Monte Carlo and molecular dynamics.  It also includes a small library
 that does communication of data back-and-forth between the 2 codes.
 
@@ -864,7 +864,7 @@ values can be updated dynamically by another application, such as
 "LAMMPS"_lammps, via a driver code.  The LAMMPS distribution includes
 an example coupling program that does this, in its "couple" directory.
 
-:link(lammps,http://lammps.sandia.gov)
+:link(lammps,http://www.lammps.org)
 
 This is the "list of changed files"_patches/files.16Sep10.txt from the 26
 Aug 2010 version.

@@ -44,7 +44,7 @@ acronym for Stochastic Parallel PARticle Kinetic Simulator.
 :tb(c=5,ea=c,a=c)
 
 :link(download,http://www.sandia.gov/~sjplimp/download.html)
-:link(pizza,http://pizza.sandia.gov)
+:link(pizza,https://lammps.github.io/pizza/)
 
 SPPARKS is a parallel Monte Carlo code for on-lattice and off-lattice
 models that includes algorithms for kinetic Monte Carlo (KMC),

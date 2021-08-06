@@ -16,7 +16,7 @@ The original chief authors of SPPARKS are "Steve Plimpton"_sjp and
 Aidan Thompson and Alex Slepoy.  They are at Sandia National Labs and
 can be contacted at sjplimp at sandia.gov and athomps at sandia.gov.
 
-:link(sjp,http://www.cs.sandia.gov/~sjplimp)
+:link(sjp,http://www.sandia.gov/~sjplimp)
 
 The following folks have contributed code for new features.  All were
 at Sandia at the time unless otherwise noted:
