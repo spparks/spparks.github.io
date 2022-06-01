@@ -8,8 +8,8 @@
     
     <title>Commands &amp; Concepts &mdash; SPPARKS TUTORIAL .1 documentation</title>
     
-    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="/tutorial/html/static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="/tutorial/html/static/pygments.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -20,9 +20,9 @@
         HAS_SOURCE:  true
       };
     </script>
-    <script type="text/javascript" src="../_static/jquery.js"></script>
-    <script type="text/javascript" src="../_static/underscore.js"></script>
-    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="/tutorial/html/static/jquery.js"></script>
+    <script type="text/javascript" src="/tutorial/html/static/underscore.js"></script>
+    <script type="text/javascript" src="/tutorial/html/static/doctools.js"></script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="top" title="SPPARKS TUTORIAL .1 documentation" href="../index.html" />
     <link rel="up" title="Initialize microstructure using synthetic data" href="synthetic.html" />
@@ -64,23 +64,23 @@
 <h1>Commands &amp; Concepts<a class="headerlink" href="#commands-concepts" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
 <li>Create lattice <a class="footnote-reference" href="#lattice-source" id="id1">[1]</a><ul>
-<li><a class="reference external" href="http://spparks.sandia.gov/doc/dimension.html">dimension</a> (1D|2D|3D), <a class="reference external" href="http://spparks.sandia.gov/doc/lattice.html">lattice</a> (FCC,BCC,...), <a class="reference external" href="http://spparks.sandia.gov/doc/region.html">region</a> (nx,ny,nz)</li>
+<li><a class="reference external" href="https://spparks.github.io/doc/dimension.html">dimension</a> (1D|2D|3D), <a class="reference external" href="https://spparks.github.io/doc/lattice.html">lattice</a> (FCC,BCC,...), <a class="reference external" href="https://spparks.github.io/doc/region.html">region</a> (nx,ny,nz)</li>
 </ul>
 </li>
 <li>Initialize <em>spin</em> values<ul>
-<li><a class="reference external" href="http://spparks.sandia.gov/doc/read_sites.html">read sites</a> (read synthetic microstructure)</li>
+<li><a class="reference external" href="https://spparks.github.io/doc/read_sites.html">read sites</a> (read synthetic microstructure)</li>
 </ul>
 </li>
-<li>Select app style: <a class="reference external" href="http://spparks.sandia.gov/doc/app_potts.html">potts</a> (a model for grain growth)</li>
-<li>Select solve style: <a class="reference external" href="http://spparks.sandia.gov/doc/solve_style.html">tree</a> (stores event probabilities in binary tree)</li>
-<li>Set <em>kT</em>: <a class="reference external" href="http://spparks.sandia.gov/doc/temperature.html">temperature</a>/energy relevant to <em>potts</em> model</li>
+<li>Select app style: <a class="reference external" href="https://spparks.github.io/doc/app_potts.html">potts</a> (a model for grain growth)</li>
+<li>Select solve style: <a class="reference external" href="https://spparks.github.io/doc/solve_style.html">tree</a> (stores event probabilities in binary tree)</li>
+<li>Set <em>kT</em>: <a class="reference external" href="https://spparks.github.io/doc/temperature.html">temperature</a>/energy relevant to <em>potts</em> model</li>
 <li>Request output text/images for analysis<ul>
-<li><a class="reference external" href="http://spparks.sandia.gov/doc/dump.html">dump text</a> and/or <a class="reference external" href="http://spparks.sandia.gov/doc/dump_image.html">dump image</a></li>
+<li><a class="reference external" href="https://spparks.github.io/doc/dump.html">dump text</a> and/or <a class="reference external" href="https://spparks.github.io/doc/dump_image.html">dump image</a></li>
 </ul>
 </li>
 <li>Choose diag style<ul>
-<li><a class="reference external" href="http://spparks.sandia.gov/doc/diag_energy.html">energy</a> (running energy tally for entire lattice)</li>
-<li><a class="reference external" href="http://spparks.sandia.gov/doc/diag_cluster.html">cluster</a> (very useful: compute cluster volumes, centroids)</li>
+<li><a class="reference external" href="https://spparks.github.io/doc/diag_energy.html">energy</a> (running energy tally for entire lattice)</li>
+<li><a class="reference external" href="https://spparks.github.io/doc/diag_cluster.html">cluster</a> (very useful: compute cluster volumes, centroids)</li>
 </ul>
 </li>
 </ul>
@@ -96,7 +96,7 @@
 </pre></div>
 </div>
 </li>
-<li><p class="first"><a class="reference download internal" href="../_downloads/synthetic.in"><code class="xref download docutils literal"><span class="pre">Download</span> <span class="pre">'synthetic.in'</span></code></a></p>
+<li><p class="first"><a class="reference download internal" href="/tutorial/html/downloads/synthetic.in"><code class="xref download docutils literal"><span class="pre">Download</span> <span class="pre">'synthetic.in'</span></code></a></p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c"># SPPARKS &#39;potts&#39; model for modeling &#39;grain&#39; growth; </span>
 <span class="c"># Initialize microstructure with synthetic data</span>
 <span class="c"># kT=&quot;0.5&quot;</span>
