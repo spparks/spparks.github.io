@@ -10,7 +10,6 @@ Pictures & Movies from SPPARKS Simulations :h3
 "rechrystallization"_#recrystallize: recrystallization models
 "hybrid phase field"_#phase-field: hybrid phase-field Potts model
 "temperature growth"_#temp-growth: temperature-dependent grain growth
-"hafnium dioxide"_#hafnium: hafnium dioxide surface growth
 "abnormal"_#abnormal: abnormal grain growth
 "erbium hydrides"_#erbium:  diffusion in Erbium hydrides
 "thin film growth"_#thinfilm: thin film growth
@@ -201,39 +200,6 @@ This paper describes the model and results of similar simulations:
 with Non-Uniform Grain Boundary Mobility], A. L. Garcia, V. Tikare and
 E. A. Holm, Scripta Materialia 59, 661-664 (2008).
 ("abstract"_abstracts/scripta08.html)
-
-:line
-
-Hafnium dioxide surface growth :h4,link(hafnium)
-
-This is work by Mahdi Shirazi (mahdi.shirazi at tyndall.ie) and Simon
-Elliott (simon.elliott at tyndall.ie) at the Tyndall National
-Institute in Cork, Ireland.  Movie editing was by Kevin
-Berwick(kevin.berwick at dit.ie) of the Dublin Institute of
-Technology.  The movie shows the the growth of Hafnium dioxide by
-Atomic Layer Deposition (ALD).  Hafnium dioxide is used in
-microelectronics as a high-k dielectric in modern transistors.
-
-In this study, activation energies, which affect the growth rate and
-the time evolution of the film, have been obtained by {ab initio}
-calculations using Density Functional Theory (DFT).  Multiple proton
-diffusion, steric effects, structural relaxation and cooperative
-effects are included for the first time in an ALD growth simulation,
-using SPPARKS.  The movie shows 40 growth cycles, simulated on the
-Stokes supercomputer at the Irish Centre for High-End Computing.
-
-:image(images/hafnium_small.jpg,images/hafnium.png)
-:image(images/hafnium_small.jpg,movies/hafnium.mpg)
-
-Image and a 36 Mb MPG movie
-
-This paper describes the DFT methodology used to calculate kMC input
-parameters:
-
-[Multiple Proton Diffusion and Film Densification in Atomic Layer
-Deposition Modeled by Density Functional Theory], M. Shirazi and
-S. D. Elliott, Chemistry of Materials, 25, 878-889 (2013).
-("abstract"_abstracts/cm13.html)
 
 :line
 
@@ -485,3 +451,40 @@ in dark blue, at the end of the simulation.
 :image(images/bubble2_small.png,images/bubble2.png)
 :image(images/bubble3_small.png,images/bubble3.png)
 :image(images/bubble4_small.png,images/bubble4.png)
+
+
+
+<!-- no longer included since paper doesn't ref or mention SPPARKS
+images and abstract are still in repo
+
+Hafnium dioxide surface growth :h4,link(hafnium)
+
+This is work by Mahdi Shirazi (mahdi.shirazi at tyndall.ie) and Simon
+Elliott (simon.elliott at tyndall.ie) at the Tyndall National
+Institute in Cork, Ireland.  Movie editing was by Kevin
+Berwick(kevin.berwick at dit.ie) of the Dublin Institute of
+Technology.  The movie shows the the growth of Hafnium dioxide by
+Atomic Layer Deposition (ALD).  Hafnium dioxide is used in
+microelectronics as a high-k dielectric in modern transistors.
+
+In this study, activation energies, which affect the growth rate and
+the time evolution of the film, have been obtained by {ab initio}
+calculations using Density Functional Theory (DFT).  Multiple proton
+diffusion, steric effects, structural relaxation and cooperative
+effects are included for the first time in an ALD growth simulation,
+using SPPARKS.  The movie shows 40 growth cycles, simulated on the
+Stokes supercomputer at the Irish Centre for High-End Computing.
+
+:image(images/hafnium_small.jpg,images/hafnium.png)
+:image(images/hafnium_small.jpg,movies/hafnium.mpg)
+
+Image and a 36 Mb MPG movie
+
+This paper describes the DFT methodology used to calculate kMC input
+parameters:
+
+[Multiple Proton Diffusion and Film Densification in Atomic Layer
+Deposition Modeled by Density Functional Theory], M. Shirazi and
+S. D. Elliott, Chemistry of Materials, 25, 878-889 (2013).
+("abstract"_abstracts/cm13.html)
+-->
