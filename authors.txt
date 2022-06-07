@@ -21,6 +21,8 @@ can be contacted at sjplimp at sandia.gov and athomps at sandia.gov.
 The following folks have contributed code for new features.  All were
 at Sandia at the time unless otherwise noted:
 
+Jun21 : app diffusion/multiphase : John Mitchell
+Jul20 : dump stitch, set stitch : John Mitchell
 Jul20 : dump stitch, set stitch : John Mitchell
 Jul20 : Stitch package and library : John Mitchell and Jay Lofstead
 Jul20 : app potts/am/path/test : John Mitchell

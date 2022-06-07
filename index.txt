@@ -89,11 +89,17 @@ along with the contributions of others.
 
 Recent SPPARKS News :c,h4
 
+<IMG SRC = "images/new.gif"> (6/21) New diffusion/multiphase
+application which allows any number of different phases (atomic
+species for an atomic-scale model) to be used, any of which can be
+immobile (pinned) or mobile (diffusing).  See the description of the
+24Jun21 release on "this page"_bug.html. :ulb,l
+
 <IMG SRC = "images/new.gif"> (7/20) A variety of options were added
 for modeling additive manufacturing processes via Potts model
 simulations which evolve microstructure in the presence of a moving
 laser spot which heats material.  See the description of the 23Jul20
-release on "this page"_bug.html. :ulb,l
+release on "this page"_bug.html. :l
 
 <IMG SRC = "images/new.gif"> (7/20) A new I/O system called the Stitch
 library has been added to SPPARKS.  It was specially developed for
