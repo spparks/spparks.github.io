@@ -43,8 +43,8 @@ This release has 2 main improvements:
 
 New version of Stitch library with improved performance :ulb,l
 
-Enable "deposition"/doc/deposition.html in parallel for "app_style
-diffusion"_/doc/app_diffuson.html :l,ule
+Enable "deposition"_/doc/deposition.html in parallel for "app_style
+diffusion"_/doc/app_diffusion.html :l,ule
 
 This is the "list of changed files"_patches/files.19Sep22.txt from the7
 Jun 2022 version.
