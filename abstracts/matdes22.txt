@@ -1,0 +1,26 @@
+[A novel physics-regularized interpretable machine learning model for
+grain growth]
+
+W. Yan, J. Melville, V. Yadav, K. Everett, L. Yang, M. S. Kesler,
+A. R. Krause, M. R. Tonks, J. B. Harley. Materials & Design, 111032
+(2022).
+
+Experimental grain growth observations often deviate from grain growth
+simulations, revealing that the governing rules for grain boundary
+motion are not fully understood. A novel deep learning model was
+developed to capture grain growth behavior from training data without
+making assumptions about the underlying physics. The
+Physics-Regularized Interpretable Machine Learning Microstructure
+Evolution (PRIMME) model consists of a multi-layer neural network that
+predicts the likelihood of a point changing to a neighboring
+grain. Here, we demonstrate PRIMME’s ability to replicate
+two-dimensional normal grain growth by training it with Monte Carlo
+Potts simulations. The trained PRIMME model’s grain growth predictions
+in several test cases show good agreement with analytical models,
+phase-field simulations, Monte Carlo Potts simulations, and results
+from the literature. Additionally, PRIMME’s adaptability to
+investigate irregular grain growth behavior is shown. Important
+aspects of PRIMME like interpretability, regularization,
+extrapolation, and overfitting are also discussed.
+
+Return to "Publications page"_../papers.html

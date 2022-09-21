@@ -37,10 +37,15 @@ about it to this page.  Ditto for a picture or movie for the "Pictures
 & Movies"_pictures.html page.  Several of the papers below have
 pictures on that page.
 
+[A novel physics-regularized interpretable machine learning model for
+grain growth], W. Yan, J. Melville, V. Yadav, K. Everett, L. Yang,
+M. S. Kesler, A. R. Krause, M. R. Tonks, J. B. Harley. Materials &
+Design, 111032 (2022).  ("abstract"_abstracts/matdes.html)
+
 [Modeling analysis of the effect of laser transverse speed on grain
 morphology during directed energy deposition process], W. Li and
 M. Soshi, Intl J of Advanced Manufacturing Technology, 103, 3279-3291
-(2019).  ("abstract"_abstracts/ijamt19.html)
+(2019). ("abstract"_abstracts/ijamt19.html)
 
 [Modeling analysis of grain morphologies in Directed energy deposition
 (DED) coating with different laser scanning patterns],
