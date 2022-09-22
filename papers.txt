@@ -40,7 +40,9 @@ pictures on that page.
 [A novel physics-regularized interpretable machine learning model for
 grain growth], W. Yan, J. Melville, V. Yadav, K. Everett, L. Yang,
 M. S. Kesler, A. R. Krause, M. R. Tonks, J. B. Harley. Materials &
-Design, 111032 (2022).  ("abstract"_abstracts/matdes22.html)
+Design, 111032 (2022).  ("abstract"_abstracts/matdes22.html), Open
+Access link to full paper:
+"https://www.sciencedirect.com/science/article/pii/S0264127522006542"_https://www.sciencedirect.com/science/article/pii/S0264127522006542
 
 [Modeling analysis of the effect of laser transverse speed on grain
 morphology during directed energy deposition process], W. Li and
