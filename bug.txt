@@ -37,6 +37,25 @@ describe the version you have. :ule,l
 :line
 :line
 
+[16 Jan 2023]
+
+This release has 3 main changes:
+
+Hamiltonion was modified for the
+"diffusion/multiphase"_/doc/app_diffusion_multiphase.html application
+:ulb,l
+
+Calculation of extent of spin clusters in each dimension was added to
+the "diag_style cluster"_doc/diag_cluster.html command :l
+
+Two apps were renamed: potts/additive ---> am/ellipsoid and potts/pfm
+---> phasefield/potts :l,ule
+
+This is the "list of changed files"_patches/files.16Jan23.txt from the
+19 Sep 2022 version.
+
+:line
+
 [19 Sep 2022]
 
 This release has 2 main improvements:
@@ -46,8 +65,8 @@ New version of Stitch library with improved performance :ulb,l
 Enable "deposition"_/doc/deposition.html in parallel for "app_style
 diffusion"_/doc/app_diffusion.html :l,ule
 
-This is the "list of changed files"_patches/files.19Sep22.txt from the7
-Jun 2022 version.
+This is the "list of changed files"_patches/files.19Sep22.txt from the
+7 Jun 2022 version.
 
 :line
 
