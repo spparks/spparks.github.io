@@ -39,17 +39,20 @@ describe the version you have. :ule,l
 
 [16 Jan 2023]
 
-This release has 3 main changes:
+This release has these changes:
 
-Hamiltonion was modified for the
-"diffusion/multiphase"_/doc/app_diffusion_multiphase.html application
+The Hamiltonion was modified for the
+"diffusion/multiphase"_/doc/app_diffusion_multiphase.html application.
 :ulb,l
 
 Calculation of extent of spin clusters in each dimension was added to
-the "diag_style cluster"_doc/diag_cluster.html command :l
+the "diag_style cluster"_doc/diag_cluster.html command. :l
 
 Two apps were renamed: potts/additive ---> am/ellipsoid and potts/pfm
----> phasefield/potts :l,ule
+---> phasefield/potts. :l
+
+The Python interface to the SPPARKS library was updated to use Python
+3. :l,ule
 
 This is the "list of changed files"_patches/files.16Jan23.txt from the
 19 Sep 2022 version.
