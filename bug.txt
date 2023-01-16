@@ -39,9 +39,9 @@ describe the version you have. :ule,l
 
 [16 Jan 2023]
 
-This release has these changes:
+This release has these new features and updates:
 
-The Hamiltonion was modified for the
+The Hamiltonian was modified for the
 "diffusion/multiphase"_/doc/app_diffusion_multiphase.html application.
 :ulb,l
 
