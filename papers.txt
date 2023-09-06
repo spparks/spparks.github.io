@@ -5,20 +5,24 @@
 
 SPPARKS Papers :h3
 
-This paper is the best overall description of SPPARKS and its 
-algorithms and applications.  Please cite this paper if you use 
-spparks.
+This paper gives the best overall description of SPPARKS and its
+algorithms and applications.  Please cite this paper if you use
+SPPARKS in one of your papers:
 
-[Parallel simulation via SPPARKS of on-lattice kinetic and Metropolis Monte Carlo models for materials processing],
-John A Mitchell, Fadi Abdeljawad, Corbett Battaile, Cristina Garcia-Cardona, Elizabeth A Holm,
-Eric R Homer, Jon Madison, Theron M Rodgers, Aidan P Thompson, Veena Tikare, Ed Webb and Steven J Plimpton, 
-Modelling and Simulation in Materials Science and Engineering, Volume 31, Number 5. Citation: 
-John A Mitchell et al 2023 Modelling Simul. Mater. Sci. Eng. 31 055001. DOI 10.1088/1361-651X/accc4b, 
-"Open access"_https://iopscience.iop.org/article/10.1088/1361-651X/accc4b/meta 
+[Parallel simulation via SPPARKS of on-lattice kinetic and Metropolis
+Monte Carlo models for materials processing], John A Mitchell, Fadi
+Abdeljawad, Corbett Battaile, Cristina Garcia-Cardona, Elizabeth A
+Holm, Eric R Homer, Jon Madison, Theron M Rodgers, Aidan P Thompson,
+Veena Tikare, Ed Webb and Steven J Plimpton, Modelling and Simulation
+in Materials Science and Engineering, 31, 055001 (2023).
+("abstract"_abstracts/msmse23.html), DOI: 10.1088/1361-651X/accc4b,
+"Open Access
+link"_https://iopscience.iop.org/article/10.1088/1361-651X/accc4b/meta
 
-This technical report was the original description of SPPARKS and its
-applications and algorithms.  As of May 2023, the above paper supercedes this
-report.
+:line
+
+This technical report describes the original version of SPPARKS.  As
+of May 2023, the above paper supercedes this report.
 
 [Crossing the Mesoscale No-Man's Land via Parallel Kinetic Monte
 Carlo], S. Plimpton, C. Battaile, M. Chandross, L. Holm,
@@ -26,8 +30,8 @@ A. Thompson, V. Tikare, G. Wagner, E. Webb, X. Zhou, C. Garcia
 Cardona, A. Slepoy, Sandia report SAND2009-6226, October
 2009. ("abstract"_abstracts/sand09.html)
 
-You can download the entire report via "this
-link"_pdf/sand09.pdf, but note that it is a 45 Mb file!
+You can download the entire report via "this link"_pdf/sand09.pdf, but
+note that it is a 45 Mb file!
 
 This paper describes the most novel KMC or event-selection algorithm
 in SPPARKS, a constant-time composition-rejection algorithm, whose
@@ -48,20 +52,21 @@ about it to this page.  Ditto for a picture or movie for the "Pictures
 & Movies"_pictures.html page.  Several of the papers below have
 pictures on that page.
 
-[A Bézier curve fit to melt pool geometry for modeling additive manufacturing microstructures]
-Jeremy E Trageser, John A Mitchell, Kyle L Johnson, Theron M Rodgers, 
-Computer Methods in Applied Mechanics and Engineering, Volume 415, 1 October 2023 116208.  
-"Open access paper"_https://doi.org/10.1016/j.cma.2023.116208
-
+[A Bézier curve fit to melt pool geometry for modeling additive
+manufacturing microstructures], Jeremy E Trageser, John A Mitchell,
+Kyle L Johnson, Theron M Rodgers, Computer Methods in Applied
+Mechanics and Engineering, Volume 415, 116208
+(2023). ("abstract"_abstracts/cmame23.html), DOI:
+10.1016/j.cma.2023.116208, "Open access
+paper"_https://doi.org/10.1016/j.cma.2023.116208
 
 :link(bezier_cmame,https://doi.org/10.1016/j.cma.2023.116208)
 
 [A novel physics-regularized interpretable machine learning model for
 grain growth], W. Yan, J. Melville, V. Yadav, K. Everett, L. Yang,
 M. S. Kesler, A. R. Krause, M. R. Tonks, J. B. Harley. Materials &
-Design, 111032 (2022).  ("abstract"_abstracts/matdes22.html), Open
-Access link to full paper:
-"https://www.sciencedirect.com/science/article/pii/S0264127522006542"_https://www.sciencedirect.com/science/article/pii/S0264127522006542
+Design, 111032 (2022).  ("abstract"_abstracts/matdes22.html), "Open
+Access link"_"https://www.sciencedirect.com/science/article/pii/S0264127522006542"_https://www.sciencedirect.com/science/article/pii/S0264127522006542
 
 [Modeling analysis of the effect of laser transverse speed on grain
 morphology during directed energy deposition process], W. Li and
