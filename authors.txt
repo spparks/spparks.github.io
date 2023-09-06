@@ -6,7 +6,7 @@
 SPPARKS Thanks :h3
 
 The development of SPPARKS has been funded by the "US Department of
-Energy"_doe (DOE), through its LDRD program and ASC programs.
+Energy"_doe (DOE), through its LDRD and ASC programs.
 
 :link(doe,http://www.doe.gov)
 
