@@ -15,14 +15,14 @@ Abdeljawad, Corbett Battaile, Cristina Garcia-Cardona, Elizabeth A
 Holm, Eric R Homer, Jon Madison, Theron M Rodgers, Aidan P Thompson,
 Veena Tikare, Ed Webb and Steven J Plimpton, Modelling and Simulation
 in Materials Science and Engineering, 31, 055001 (2023).
-("abstract"_abstracts/msmse23.html), DOI: 10.1088/1361-651X/accc4b,
-"Open Access
-link"_https://iopscience.iop.org/article/10.1088/1361-651X/accc4b/meta
+("abstract"_abstracts/msmse23.html), "Open Access
+link"_https://iopscience.iop.org/article/10.1088/1361-651X/accc4b/meta,
+DOI: 10.1088/1361-651X/accc4b,
 
 :line
 
 This technical report describes the original version of SPPARKS.  As
-of May 2023, the above paper supercedes this report.
+of May 2023, the MSMSE paper above supercedes this report.
 
 [Crossing the Mesoscale No-Man's Land via Parallel Kinetic Monte
 Carlo], S. Plimpton, C. Battaile, M. Chandross, L. Holm,
@@ -32,6 +32,8 @@ Cardona, A. Slepoy, Sandia report SAND2009-6226, October
 
 You can download the entire report via "this link"_pdf/sand09.pdf, but
 note that it is a 45 Mb file!
+
+:line
 
 This paper describes the most novel KMC or event-selection algorithm
 in SPPARKS, a constant-time composition-rejection algorithm, whose
@@ -55,10 +57,10 @@ pictures on that page.
 [A Bézier curve fit to melt pool geometry for modeling additive
 manufacturing microstructures], Jeremy E Trageser, John A Mitchell,
 Kyle L Johnson, Theron M Rodgers, Computer Methods in Applied
-Mechanics and Engineering, Volume 415, 116208
-(2023). ("abstract"_abstracts/cmame23.html), DOI:
-10.1016/j.cma.2023.116208, "Open access
-paper"_https://doi.org/10.1016/j.cma.2023.116208
+Mechanics and Engineering, 415, 116208
+(2023). ("abstract"_abstracts/cmame23.html), "Open access
+link"_https://doi.org/10.1016/j.cma.2023.116208, DOI:
+10.1016/j.cma.2023.116208
 
 :link(bezier_cmame,https://doi.org/10.1016/j.cma.2023.116208)
 
