@@ -72,12 +72,11 @@ the "GNU Lesser General Public License (LGPL)"_gnu2.  The current
 version can be downloaded "here"_download.
 
 SPPARKS was developed at "Sandia National Laboratories"_snl, a US
-"Department of Energy"_doe laboratory.  The authors are "Steve
-Plimpton"_sjp and Aidan Thompson and Alex Slepoy who can be contacted
-at sjplimp at sandia.gov, athomps at sandia.gov, and alexander.slepoy
-at nnsa.doe.gov, respectively.  Funding for SPPARKS development has
-come from the DOE and is "acknowledged here"_thanks.html,
-along with the contributions of others.
+"Department of Energy"_doe laboratory.  The "Authors
+page"_authors.html lists the developers and their contact info, along
+with others who have contributed code to SPPARKS.  Funding for SPPARKS
+development has come from the DOE and is also acknowledged on the
+"Authors page"_authors.html.
 
 :link(gpl,http://www.gnu.org/copyleft/gpl.html)
 :link(gnu2,http://www.gnu.org/licenses/lgpl-2.1.html)
@@ -89,11 +88,16 @@ along with the contributions of others.
 
 Recent SPPARKS News :c,h4
 
+<IMG SRC = "images/new.gif"> (6/21) New potts/am/bezier application
+for modeing additive manufacturing of metals, using Bezier curves to
+fit the dynamic meltpool shape.  See the description of the 6Sep23
+release on "this page"_bug.html. :ulb,l
+
 <IMG SRC = "images/new.gif"> (6/21) New diffusion/multiphase
 application which allows any number of different phases (atomic
 species for an atomic-scale model) to be used, any of which can be
 immobile (pinned) or mobile (diffusing).  See the description of the
-24Jun21 release on "this page"_bug.html. :ulb,l
+24Jun21 release on "this page"_bug.html. l
 
 <IMG SRC = "images/new.gif"> (7/20) A variety of options were added
 for modeling additive manufacturing processes via Potts model

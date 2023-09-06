@@ -37,6 +37,29 @@ describe the version you have. :ule,l
 :line
 :line
 
+[6 Sep 2023]
+
+This release has these new features and updates:
+
+A new model for simulating microstructures for additive manufacturing
+of metals.  The new app uses Bezier curves to fit the dynamic meltpool
+shape.  See the "potts/am/bezier"_/doc/app_potts_am_bezier.html
+application. :ulb,l
+
+The spparks-lammps coupling app was updated.  See the
+examples/COUPLE/lammps_spparks directory. :l
+
+The python interface to spparks was further updated :l
+
+Bug was fixed for applications using off-lattice capabilities. :l
+
+Fixed doc page error in the 'inclusion command'. :l
+
+This is the "list of changed files"_patches/files.6Sep23.txt from the
+16 Jan 2023 version.
+
+:line
+
 [16 Jan 2023]
 
 This release has these new features and updates:

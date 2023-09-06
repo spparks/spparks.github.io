@@ -6,21 +6,25 @@
 SPPARKS Thanks :h3
 
 The development of SPPARKS has been funded by the "US Department of
-Energy"_doe (DOE), through its LDRD program.
+Energy"_doe (DOE), through its LDRD program and ASC programs.
 
 :link(doe,http://www.doe.gov)
 
 :line
 
-The original chief authors of SPPARKS are "Steve Plimpton"_sjp and
-Aidan Thompson and Alex Slepoy.  They are at Sandia National Labs and
-can be contacted at sjplimp at sandia.gov and athomps at sandia.gov.
+The currrent developers of SPPARKS are John Mitchell (Sandia National
+Labs) and "Steve Plimpton"_sjp (retired from Sandia).  They can be
+contacted at jamitch@sandia.gov and sjplimp@gmail.com respectively.
 
-:link(sjp,http://www.sandia.gov/~sjplimp)
+Past developers include Aidan Thompson (Sandia) and Alex Slepoy
+(Sandia and DOE).
+
+:link(sjp,https://sjplimp.github.io)
 
 The following folks have contributed code for new features.  All were
 at Sandia at the time unless otherwise noted:
 
+Sep23 : app potts/am/bezier : John Mitchell and Jeremy Trageser
 Jun21 : app diffusion/multiphase : John Mitchell
 Jul20 : dump stitch, set stitch : John Mitchell
 Jul20 : dump stitch, set stitch : John Mitchell
@@ -47,7 +51,7 @@ Nov09 : app diffusion : Greg Wagner and Xiaowang Zhou : :tb(s=:,ca1=c)
 :line
 
 Several materials scientists at Sandia also helped in the original
-design of SPPARKS and testing out of models:
+design of SPPARKS and testing of new models:
 
 Corbett Battaile
 Liz Holm
