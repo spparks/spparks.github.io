@@ -53,7 +53,7 @@ The python interface to spparks was further updated :l
 
 Bug was fixed for applications using off-lattice capabilities. :l
 
-Fixed doc page error in the 'inclusion command'. :l
+Fixed doc page error in the 'inclusion command'. :l,ule
 
 This is the "list of changed files"_patches/files.6Sep23.txt from the
 16 Jan 2023 version.
