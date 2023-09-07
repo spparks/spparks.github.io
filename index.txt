@@ -88,12 +88,12 @@ development has come from the DOE and is also acknowledged on the
 
 Recent SPPARKS News :c,h4
 
-<IMG SRC = "images/new.gif"> (6/21) New potts/am/bezier application
+<IMG SRC = "images/new.gif"> (9/23) New potts/am/bezier application
 for modeing additive manufacturing of metals, using Bezier curves to
-fit the dynamic meltpool shape.  See the description of the 6Sep23
+fit the meltpool shape.  See the description of the 6Sep23
 release on "this page"_bug.html. :ulb,l
 
-<IMG SRC = "images/new.gif"> (6/21) New diffusion/multiphase
+<IMG SRC = "images/new.gif"> (6/22) New diffusion/multiphase
 application which allows any number of different phases (atomic
 species for an atomic-scale model) to be used, any of which can be
 immobile (pinned) or mobile (diffusing).  See the description of the
