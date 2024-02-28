@@ -38,8 +38,8 @@ acronym for Stochastic Parallel PARticle Kinetic Simulator.
 "Open source"_open_source.html,
 "GitHub"_https://github.com/spparks/spparks,
 "Commands"_doc/Section_commands.html#cmd_5,
-"Pizza.py Toolkit"_pizza,
 "Tutorial"_tutorial/html/index.html,
+"Pizza.py Toolkit"_pizza,
 ,
 :tb(c=5,ea=c,a=c)
 
