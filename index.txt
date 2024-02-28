@@ -28,18 +28,18 @@ acronym for Stochastic Parallel PARticle Kinetic Simulator.
 
 "Features"_features.html,
 "Documentation"_doc/Manual.html,
-"Commands"_doc/Section_commands.html#cmd_5,
 "Pictures & Movies"_pictures.html,
 "Publications"_papers.html,
+"Authors"_authors.html,
 "Download"_download,
 "Latest features & bug fixes"_bug.html,
 "Performance"_performance.html,
+"External Tools"_external.html,
 "Open source"_open_source.html,
-"Authors"_authors.html,
 "GitHub"_https://github.com/spparks/spparks,
+"Commands"_doc/Section_commands.html#cmd_5,
 "Pizza.py Toolkit"_pizza,
 "Tutorial"_tutorial/html/index.html,
-,
 ,
 :tb(c=5,ea=c,a=c)
 
