@@ -40,6 +40,33 @@ describe the version you have.
 
 <HR>
 
+<P><B>27 Nov 2024</B>
+</P>
+<P>This release has these new features and updates:
+</P>
+<UL><LI>An enhancement to the AM Bezier model includes a variable heat affected
+zone. This enhancement slightly changes the app input parameters to include a
+tail parameter describing the variable HAZ. The app documentation and examples fully
+explain the inputs and use of this app. See the <A HREF = "/doc/app_potts_am_bezier.html">potts/am/bezier</A>
+application. 
+
+<LI>A new app named 'app/potts/quaternion' has been introduced. This app models
+grain growth using cubic and hexagonal close-packed (HCP) crystal symmetries.
+It utilizes quaternions to determine the relative orientation differences
+between sites.  For more information, please refer to the examples in
+examples/potts_quaternion and documentation
+<A HREF = "/doc/app_potts_quaternion.html">potts/quaternion</A> application. 
+
+<LI>The Stitch library for SPPARKS has two updates: (1) Performance improvement: 
+(10-100x) speedup when using the 'set stitch' command; (2) Discontinued use of
+numpy.disutils. With this update, 'setuptools' are used to build the stitch
+python extension; the stitch package no longer uses numpy.disutils. 
+</UL>
+<P>This is the <A HREF = "patches/files.27Nov24.txt">list of changed files</A> from the
+27 Nov 2024 version.
+</P>
+<HR>
+
 <P><B>6 Sep 2023</B>
 </P>
 <P>This release has these new features and updates:
