@@ -103,7 +103,7 @@ release on "this page"_bug.html. :l
 application which allows any number of different phases (atomic
 species for an atomic-scale model) to be used, any of which can be
 immobile (pinned) or mobile (diffusing).  See the description of the
-24Jun21 release on "this page"_bug.html. l
+24Jun21 release on "this page"_bug.html. :l
 
 <IMG SRC = "images/new.gif"> (7/20) A variety of options were added
 for modeling additive manufacturing processes via Potts model
