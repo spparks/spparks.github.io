@@ -24,7 +24,7 @@ Past developers include Aidan Thompson (Sandia) and Alex Slepoy
 The following folks have contributed code for new features.  All were
 at Sandia at the time unless otherwise noted:
 
-Nov24 : app potts/quaternion : John Mitchell
+Nov24 : app potts/quaternion : John Mitchell and Meg McCarthy
 Sep23 : app potts/am/bezier : John Mitchell and Jeremy Trageser
 Jun22 : app diffusion/multiphase : John Mitchell
 Jul20 : dump stitch, set stitch : John Mitchell
