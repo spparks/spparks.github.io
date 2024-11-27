@@ -41,23 +41,25 @@ describe the version you have. :ule,l
 
 This release has these new features and updates:
 
-An enhancement to the AM Bezier model includes a variable heat affected
-zone. This enhancement slightly changes the app input parameters to include a
-tail parameter describing the variable HAZ. The app documentation and examples fully
-explain the inputs and use of this app. See the "potts/am/bezier"_/doc/app_potts_am_bezier.html
-application. :ulb,l
+An enhancement to the AM Bezier model includes a variable heat
+affected zone. This enhancement slightly changes the app input
+parameters to include a tail parameter describing the variable
+HAZ. The app documentation and examples fully explain the inputs and
+use of this app. See the
+"potts/am/bezier"_/doc/app_potts_am_bezier.html application. :ulb,l
 
-A new app named 'app/potts/quaternion' has been introduced. This app models
-grain growth using cubic and hexagonal close-packed (HCP) crystal symmetries.
-It utilizes quaternions to determine the relative orientation differences
-between sites.  For more information, please refer to the examples in
-examples/potts_quaternion and documentation
+A new app named 'app/potts/quaternion' has been introduced. This app
+models grain growth using cubic and hexagonal close-packed (HCP)
+crystal symmetries.  It utilizes quaternions to determine the relative
+orientation differences between sites.  For more information, please
+refer to the examples in examples/potts_quaternion and documentation
 "potts/quaternion"_/doc/app_potts_quaternion.html application. :l
 
-The Stitch library for SPPARKS has two updates: (1) Performance improvement: 
-(10-100x) speedup when using the 'set stitch' command; (2) Discontinued use of
-numpy.disutils. With this update, 'setuptools' are used to build the stitch
-python extension; the stitch package no longer uses numpy.disutils. :l,ule
+The Stitch library for SPPARKS has two updates: (1) Performance
+improvement: (10-100x) speedup when using the 'set stitch' command;
+(2) Discontinued use of numpy.disutils. With this update, 'setuptools'
+are used to build the stitch python extension; the stitch package no
+longer uses numpy.disutils. :l,ule
 
 This is the "list of changed files"_patches/files.27Nov24.txt from the
 27 Nov 2024 version.
