@@ -12,18 +12,16 @@ Energy"_doe (DOE), through its LDRD and ASC programs.
 
 :line
 
-The currrent developers of SPPARKS are John Mitchell (Sandia National
-Labs) and "Steve Plimpton"_sjp (retired from Sandia).  They can be
-contacted at jamitch@sandia.gov and sjplimp@gmail.com respectively.
+SPPARKS development was originally led by Steve Plimpton,
+Aidan Thompson and Alex Slepoy.  The current SPPARKS developers are John
+Mitchell and Svetoslav Nikolov (Sandia National Labs). Current authors can 
+be contacted at jamitch@sandia.gov and snikolo@sandia.gov respectively. Past
+developers and other significant code contributores are listed below.
+All were at Sandia Labs at the time unless otherwise noted:
 
-Past developers include Aidan Thompson (Sandia) and Alex Slepoy
-(Sandia and DOE).
-
-:link(sjp,https://sjplimp.github.io)
-
-The following folks have contributed code for new features.  All were
-at Sandia at the time unless otherwise noted:
-
+Oct25 : diag_cluster update: Aidan Thompson
+Oct25 : Stitch api and performance updates: John Mitchell, Jay Lofstead
+Oct25 : HCP BOR variants: John Mitchell, Svetoslav Nikolov, Laura Vietz
 Nov24 : app potts/quaternion : John Mitchell and Meg McCarthy
 Sep23 : app potts/am/bezier : John Mitchell and Jeremy Trageser
 Jun22 : app diffusion/multiphase : John Mitchell
