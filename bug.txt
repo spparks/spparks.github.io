@@ -11,7 +11,7 @@ the SPPARKS simulator.
 To stay up-to-date with the current SPPARKS, you can download the
 current tarball from the "download page"_download at any time, which
 will include all the features/fixes listed below, and re-build SPPARKS
-from scratch.
+from scratch. 
 
 :link(download,https://github.com/spparks/spparks)
 
