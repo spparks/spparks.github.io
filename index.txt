@@ -8,10 +8,10 @@
     <meta name="subject" content="SPPARKS home page" />
     <meta name="sandia.approval_type" content="formal" />
     <meta name="sandia.approved" content="2020-4929W" />
-    <link rev="owns" title="Steve Plimpton" href="mailto:sjplimp@sandia.gov" />
-    <link rev="made, publisher" title="Steve Plimpton" href="mailto:sjplimp@sandia.gov" />
+    <link rev="owns" title="John Mitchell" href="mailto:jamitch@sandia.gov" />
+    <link rev="made, publisher" title="John Mitchell" href="mailto:jamitch@sandia.gov" />
     <meta name="MSSmartTagsPreventParsing" content="TRUE" />
-    <meta name="Author" content="Steve Plimpton" />
+    <meta name="Author" content="John Mitchell" />
 </HEAD>
 
 SPPARKS Kinetic Monte Carlo Simulator :c,h3
@@ -43,7 +43,7 @@ acronym for Stochastic Parallel PARticle Kinetic Simulator.
 ,
 :tb(c=5,ea=c,a=c)
 
-:link(download,http://www.sandia.gov/~sjplimp/download.html)
+:link(download,https://github.com/spparks/spparks)
 :link(pizza,https://lammps.github.io/pizza/)
 
 SPPARKS is a parallel Monte Carlo code for on-lattice and off-lattice
