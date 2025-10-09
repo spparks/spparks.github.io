@@ -21,6 +21,14 @@ DOI: 10.1088/1361-651X/accc4b,
 
 :line
 
+[Modeling Additively Manufactured Metallic Microstructures
+for Dynamic Response], John A. Mitchell, Stewart A. Silling,
+Edwin Chiu, Stephen D. Bond, Timothy Ruggles. 
+Journal of Peridynamics and Nonlocal Modeling,
+Volume 5, pages 497–520, (2023) "link"_https://doi.org/10.1007/s42102-022-00093-2
+
+:line
+
 This technical report describes the original version of SPPARKS.  As
 of May 2023, the MSMSE paper above supercedes this report.
 
@@ -54,7 +62,7 @@ about it to this page.  Ditto for a picture or movie for the "Pictures
 & Movies"_pictures.html page.  Several of the papers below have
 pictures on that page.
 
-[A Bézier curve fit to melt pool geometry for modeling additive
+[A Bezier curve fit to melt pool geometry for modeling additive
 manufacturing microstructures], Jeremy E Trageser, John A Mitchell,
 Kyle L Johnson, Theron M Rodgers, Computer Methods in Applied
 Mechanics and Engineering, 415, 116208
@@ -87,13 +95,13 @@ in Materials Science and Engineering, 25, 064006 (2017),
 
 [Simulation of metal additive manufacturing microstructures using
 kinetic Monte Carlo], T. M. Rodgers, J. D. Madison, V. Tikare,
-Computational Materials Science 135, 78–89 (2017).
+Computational Materials Science 135, 78-89 (2017).
 ("abstract"_abstracts/cms17.html)
 
 [Process-Structure Linkages Using a Data Science Approach: Application
 to Simulated Additive Manufacturing Data], E. Popova, T. M. Rodgers,
 X. Gong, A, Cecen, J. D. Madison, and S. R. Kalidindi, Integrating
-Matererials and Manufacturing Innovation, 6, 54–68 (2017).
+Matererials and Manufacturing Innovation, 6, 54-68 (2017).
 ("abstract"_abstracts/immi17.html)
 
 [Modeling of additive manufacturing processes for metals: Challenges
@@ -103,7 +111,7 @@ J. Bakosi, J. W. Gibbs, V. Livescu, S. A. Vander Wiel, A. J. Clarke,
 M. W. Schraad, T. Blacker, H. Lim, T. Rodgers, S. Owen, F. Abdeljawad,
 J. Madison, A. T. Anderson, J-L. Fattebert, R. M. Ferencz,
 N. E. Hodge, S. A. Khairallah, and O. Walton, Current Opinion in Solid
-State and Materials Science, 21, 198–206 (2017).
+State and Materials Science, 21, 198-206 (2017).
 ("abstract"_abstracts/cossms17.html)
 
 [Empirical force field-based kinetic Monte Carlo simulation of
@@ -128,7 +136,7 @@ S. D. Elliott, Chemistry of Materials, 25, 878-889 (2013).
 
 [A hybrid simulation methodology for modeling dynamic
 recrystallization in UO2 LWR nuclear fuels], J. D. Madison, V.Tikare,
-E. A. Holm, Journal of Nuclear Materials 425, 173–180 (2012).
+E. A. Holm, Journal of Nuclear Materials 425, 173-180 (2012).
 ("abstract"_abstracts/jnm12.html)
 
 [Parallel Simulation of 3D Sintering], C. G. Cardona, V. Tikare,

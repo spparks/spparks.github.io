@@ -11,9 +11,9 @@ the SPPARKS simulator.
 To stay up-to-date with the current SPPARKS, you can download the
 current tarball from the "download page"_download at any time, which
 will include all the features/fixes listed below, and re-build SPPARKS
-from scratch.
+from scratch. 
 
-:link(download,http://www.sandia.gov/~sjplimp/download.html)
+:link(download,https://github.com/spparks/spparks)
 
 :line
 
@@ -37,6 +37,39 @@ describe the version you have. :ule,l
 :line
 :line
 
+[08 Oct 2025]
+
+All source files have been changed with this release which 
+has the following new features and updates:
+
+When the HCP α phase in titanium precipitates, it forms in particular
+orientations relative to its parent/prior BCC β grain.  There are 12 possible
+α-HCP variants associated with a single β -BCC crystal due to symmetry of the
+cubic and hexagonal structures.  These variants have been implemented and
+verified in this spparks release. :ulb,l
+
+The stitch api has been updated.  This update required small modifications 
+in spparks to accommodate the new api.
+The set_parameters function, whether in c or
+python now only takes absolute and relative tolerances; these tolerances are used for search queries
+on time; previously, a 'no value present' (nvp) value could be set that applied
+to all fields in the file but that had ambiguities across field types (int,
+    float, etc) and different fields.  Now, when a field is created, a nvp
+value must be supplied; create_field function has been updated to reflect this
+change. The api has been enhanced so that fields may be array valued -- this feature
+has not been tested but its in the interface.  Use with caution.  Future
+updates will include demonstrations and testing of this feature -- the target
+for this feature is quaternions, ie field is a 4-valued quaternion.   Quaternions 
+in spparks are currently dumped to the stitch file as four scalars q0, q1, q2, q3.
+Documentation of the stitch python api has been created; sphinx-build and a few other python 
+modules are required to generate the documentation that covers the full stitch api. :l
+
+Diag cluster update allows apps to use cluster size as part of a model. 
+See "diag_cluster"_./doc/diag_cluster.html :l,ule
+
+
+:line
+
 [27 Nov 2024]
 
 This release has these new features and updates:
@@ -46,14 +79,14 @@ affected zone. This enhancement slightly changes the app input
 parameters to include a tail parameter describing the variable
 HAZ. The app documentation and examples fully explain the inputs and
 use of this app. See the
-"potts/am/bezier"_/doc/app_potts_am_bezier.html application. :ulb,l
+"potts/am/bezier"_./doc/app_potts_am_bezier.html application. :ulb,l
 
 A new app named 'app/potts/quaternion' has been introduced. This app
 models grain growth using cubic and hexagonal close-packed (HCP)
 crystal symmetries.  It utilizes quaternions to determine the relative
 orientation differences between sites.  For more information, please
 refer to the examples in examples/potts_quaternion and documentation
-"potts/quaternion"_/doc/app_potts_quaternion.html application. :l
+"potts/quaternion"_./doc/app_potts_quaternion.html application. :l
 
 The Stitch library for SPPARKS has two updates: (1) Performance
 improvement: (10-100x) speedup when using the 'set stitch' command;
@@ -72,7 +105,7 @@ This release has these new features and updates:
 
 A new model for simulating microstructures for additive manufacturing
 of metals.  The new app uses Bezier curves to fit the dynamic meltpool
-shape.  See the "potts/am/bezier"_/doc/app_potts_am_bezier.html
+shape.  See the "potts/am/bezier"_./doc/app_potts_am_bezier.html
 application. :ulb,l
 
 The spparks-lammps coupling app was updated.  See the
@@ -94,7 +127,7 @@ This is the "list of changed files"_patches/files.6Sep23.txt from the
 This release has these new features and updates:
 
 The Hamiltonian was modified for the
-"diffusion/multiphase"_/doc/app_diffusion_multiphase.html application.
+"diffusion/multiphase"_./doc/app_diffusion_multiphase.html application.
 :ulb,l
 
 Calculation of extent of spin clusters in each dimension was added to
@@ -117,8 +150,8 @@ This release has 2 main improvements:
 
 New version of Stitch library with improved performance :ulb,l
 
-Enable "deposition"_/doc/deposition.html in parallel for "app_style
-diffusion"_/doc/app_diffusion.html :l,ule
+Enable "deposition"_./doc/deposition.html in parallel for "app_style
+diffusion"_./doc/app_diffusion.html :l,ule
 
 This is the "list of changed files"_patches/files.19Sep22.txt from the
 7 Jun 2022 version.

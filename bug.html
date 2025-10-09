@@ -11,9 +11,9 @@
 the SPPARKS simulator.
 </P>
 <P>To stay up-to-date with the current SPPARKS, you can download the
-current tarball from the <A HREF = "http://www.sandia.gov/~sjplimp/download.html">download page</A> at any time, which
+current tarball from the <A HREF = "https://github.com/spparks/spparks">download page</A> at any time, which
 will include all the features/fixes listed below, and re-build SPPARKS
-from scratch.
+from scratch. 
 </P>
 
 
@@ -40,6 +40,38 @@ describe the version you have.
 
 <HR>
 
+<P><B>08 Oct 2025</B>
+</P>
+<P>All source files have been changed with this release which 
+has the following new features and updates:
+</P>
+<UL><LI>When the HCP α phase in titanium precipitates, it forms in particular
+orientations relative to its parent/prior BCC β grain.  There are 12 possible
+α-HCP variants associated with a single β -BCC crystal due to symmetry of the
+cubic and hexagonal structures.  These variants have been implemented and
+verified in this spparks release. 
+
+<LI>The stitch api has been updated.  This update required small modifications 
+in spparks to accommodate the new api.
+The set_parameters function, whether in c or
+python now only takes absolute and relative tolerances; these tolerances are used for search queries
+on time; previously, a 'no value present' (nvp) value could be set that applied
+to all fields in the file but that had ambiguities across field types (int,
+    float, etc) and different fields.  Now, when a field is created, a nvp
+value must be supplied; create_field function has been updated to reflect this
+change. The api has been enhanced so that fields may be array valued -- this feature
+has not been tested but its in the interface.  Use with caution.  Future
+updates will include demonstrations and testing of this feature -- the target
+for this feature is quaternions, ie field is a 4-valued quaternion.   Quaternions 
+in spparks are currently dumped to the stitch file as four scalars q0, q1, q2, q3.
+Documentation of the stitch python api has been created; sphinx-build and a few other python 
+modules are required to generate the documentation that covers the full stitch api. 
+
+<LI>Diag cluster update allows apps to use cluster size as part of a model. 
+See <A HREF = "./doc/diag_cluster.html">diag_cluster</A> 
+</UL>
+<HR>
+
 <P><B>27 Nov 2024</B>
 </P>
 <P>This release has these new features and updates:
@@ -49,14 +81,14 @@ affected zone. This enhancement slightly changes the app input
 parameters to include a tail parameter describing the variable
 HAZ. The app documentation and examples fully explain the inputs and
 use of this app. See the
-<A HREF = "/doc/app_potts_am_bezier.html">potts/am/bezier</A> application. 
+<A HREF = "./doc/app_potts_am_bezier.html">potts/am/bezier</A> application. 
 
 <LI>A new app named 'app/potts/quaternion' has been introduced. This app
 models grain growth using cubic and hexagonal close-packed (HCP)
 crystal symmetries.  It utilizes quaternions to determine the relative
 orientation differences between sites.  For more information, please
 refer to the examples in examples/potts_quaternion and documentation
-<A HREF = "/doc/app_potts_quaternion.html">potts/quaternion</A> application. 
+<A HREF = "./doc/app_potts_quaternion.html">potts/quaternion</A> application. 
 
 <LI>The Stitch library for SPPARKS has two updates: (1) Performance
 improvement: (10-100x) speedup when using the 'set stitch' command;
@@ -75,7 +107,7 @@ longer uses numpy.disutils.
 </P>
 <UL><LI>A new model for simulating microstructures for additive manufacturing
 of metals.  The new app uses Bezier curves to fit the dynamic meltpool
-shape.  See the <A HREF = "/doc/app_potts_am_bezier.html">potts/am/bezier</A>
+shape.  See the <A HREF = "./doc/app_potts_am_bezier.html">potts/am/bezier</A>
 application. 
 
 <LI>The spparks-lammps coupling app was updated.  See the
@@ -97,7 +129,7 @@ examples/COUPLE/lammps_spparks directory.
 <P>This release has these new features and updates:
 </P>
 <UL><LI>The Hamiltonian was modified for the
-<A HREF = "/doc/app_diffusion_multiphase.html">diffusion/multiphase</A> application.
+<A HREF = "./doc/app_diffusion_multiphase.html">diffusion/multiphase</A> application.
 
 
 <LI>Calculation of extent of spin clusters in each dimension was added to
@@ -120,7 +152,7 @@ the <A HREF = "doc/diag_cluster.html">diag_style cluster</A> command.
 </P>
 <UL><LI>New version of Stitch library with improved performance 
 
-<LI>Enable <A HREF = "/doc/deposition.html">deposition</A> in parallel for <A HREF = "/doc/app_diffusion.html">app_style
+<LI>Enable <A HREF = "./doc/deposition.html">deposition</A> in parallel for <A HREF = "./doc/app_diffusion.html">app_style
 diffusion</A> 
 </UL>
 <P>This is the <A HREF = "patches/files.19Sep22.txt">list of changed files</A> from the
