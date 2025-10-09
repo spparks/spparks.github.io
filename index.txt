@@ -40,6 +40,7 @@ acronym for Stochastic Parallel PARticle Kinetic Simulator.
 "Commands"_doc/Section_commands.html#cmd_5,
 "Tutorial"_tutorial/html/index.html,
 "Pizza.py Toolkit"_pizza,
+"Manual (pdf)"_pdf/Manual.pdf
 ,
 :tb(c=5,ea=c,a=c)
 
