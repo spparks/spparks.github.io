@@ -42,14 +42,11 @@ describe the version you have. :ule,l
 All source files have been changed with this release which 
 has the following new features and updates:
 
-Diag cluster update allows apps to use cluster size as part of a model. 
-See "diag_cluster"_./doc/diag_cluster.html :ulb,l
-
 When the HCP α phase in titanium precipitates, it forms in particular
 orientations relative to its parent/prior BCC β grain.  There are 12 possible
 α-HCP variants associated with a single β -BCC crystal due to symmetry of the
 cubic and hexagonal structures.  These variants have been implemented and
-verified in this spparks release. :l
+verified in this spparks release. :ulb,l
 
 The stitch api has been updated.  This update required small modifications 
 in spparks to accommodate the new api.
@@ -65,7 +62,11 @@ updates will include demonstrations and testing of this feature -- the target
 for this feature is quaternions, ie field is a 4-valued quaternion.   Quaternions 
 in spparks are currently dumped to the stitch file as four scalars q0, q1, q2, q3.
 Documentation of the stitch python api has been created; sphinx-build and a few other python 
-modules are required to generate the documentation that covers the full stitch api. :l,ule
+modules are required to generate the documentation that covers the full stitch api. :l
+
+Diag cluster update allows apps to use cluster size as part of a model. 
+See "diag_cluster"_./doc/diag_cluster.html :l,ule
+
 
 :line
 
