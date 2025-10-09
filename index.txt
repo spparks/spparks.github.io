@@ -43,7 +43,7 @@ acronym for Stochastic Parallel PARticle Kinetic Simulator.
 ,
 :tb(c=5,ea=c,a=c)
 
-:link(download,https://github.com/spparks/spparks)
+:link(download,https://github.com/spparks/spparks/releases/tag/08Oct25)
 :link(pizza,https://lammps.github.io/pizza/)
 
 SPPARKS is a parallel Monte Carlo code for on-lattice and off-lattice
